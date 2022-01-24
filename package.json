@@ -4,12 +4,13 @@
   "description": "Weather Data Showing Web Application",
   "main": "app.js",
   "dependencies": {
+    "body-parser": "^1.19.1",
     "express": "^4.17.2"
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start" : "nodemon app.js"
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
