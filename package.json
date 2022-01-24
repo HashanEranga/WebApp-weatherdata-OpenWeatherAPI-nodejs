@@ -1,0 +1,24 @@
+{
+  "name": "webapp-weatherdata-openweatherapi-nodejs",
+  "version": "1.0.0",
+  "description": "Weather Data Showing Web Application",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HashanEranga/WebApp-weatherdata-OpenWeatherAPI-nodejs.git"
+  },
+  "author": "Hashan Eranga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HashanEranga/WebApp-weatherdata-OpenWeatherAPI-nodejs/issues"
+  },
+  "homepage": "https://github.com/HashanEranga/WebApp-weatherdata-OpenWeatherAPI-nodejs#readme"
+}
