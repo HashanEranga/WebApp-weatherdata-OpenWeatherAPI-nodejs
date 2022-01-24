@@ -7,7 +7,10 @@ const url = "https://api.openweathermap.org/data/2.5/weather?q=London&appid=34fc
 
 app.get("/", function(req,res){
     https.get(url, function(responce){
-        console.log(responce)
+        responce.on("data", function(data){
+            const weatherData = JSON.parse(data)
+            console.log(weatherData)
+        })
     })
     res.send("Server up and running")
 })
